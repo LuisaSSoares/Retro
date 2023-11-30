@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Kalam:wght@300;400;700&family=Khula:wght@300;400;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/R.png" type="image/x-png">
+  <title>Retro</title>
+</head>
+
+<body>
+  <header>
+    <div class="d-flex justify-content-between">
+      <div>
+        <h1 class="title">RETRO</h1>
+        <hr>
+      </div>
+      <nav>
+        <button type="button" class="btn">
+          <img src="./assets/person-circle.svg" alt="">
+        </button>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#searchModal">
+          <img src="./assets/search.svg" alt="">  
+        </button>
+        <div class="btn-group">
+          <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./assets/list.svg" alt="">
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="./index.html">Início</a></li>
+            <li><a class="dropdown-item" href="#">Em alta</a></li>
+            <li><a class="dropdown-item" href="#">Sua biblioteca</a></li>
+            <li><a class="dropdown-item" href="#">Criar playlist</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="d-flex justify-content-between">
+      <div>
+        <div class="primeira_sessao">
+          <a href="./pagina2.html">
+            <img src="./assets/chase-atlantic-sept23.png" class="rounded-circle">
+          </a>
+          <div class="primeiro_container">
+            <p>Novo lançamento:</p>
+            <h4 class="band">CHASE ATLANTIC</h4>
+          </div>
+        </div>
+        <div>
+          <figure class="figure">
+            <img src="./assets/mamacita.jpg" class="figure-img">
+            <figcaption class="figure-caption">
+              <h6>Mamacita</h6>
+              <p>single - Chase Atlantic</p>
+              <div class="bottons_mamacita d-flex">
+                <img src="./assets/heart.svg">
+                <img src="./assets/play-circle-fill.svg">
+              </div>
+              
+        </div>
+          <h6 class="Recomendacoes">Para você:</h6>
+          <div>
+          <figure class="figure2">
+              <img src="./assets/download.jpeg" class="figure-img2">
+              <figcaption class="figure-caption2">
+                  <h6>Something-Remastered...</h6>
+                  <p>The Beatles</p>
+                  <div>
+                      <img src="./assets/play-circle-fill.svg">
+                      <img src="./assets/heart.svg">
+                  </div>        
+          </div>
+          <div>
+          <figure class="figure2">
+              <img src="./assets/Metallica_-_Nothing_Else_Matters_cover.jpg" class="figure-img2">
+              <figcaption class="figure-caption2">
+                  <h6>Nothing Else Matters</h6>
+                  <p>Metallica</p>
+                  <div>
+                      <img src="./assets/play-circle-fill.svg">
+                      <img src="./assets/heart.svg">
+                  </div>        
+          </div>
+          <div>
+          <figure class="figure2">
+              <img src="./assets/1200x1200bf-60.jpg" class="figure-img2">
+              <figcaption class="figure-caption2">
+                  <h6>Pelas Cidades de Lona</h6>
+                  <p>Gustavo Brodinho</p>
+                  <div>
+                      <img src="./assets/play-circle-fill.svg">
+                      <img src="./assets/heart.svg">
+                  </div>        
+          </div>
+          <p class="artists">Artistas recomendados:</p>
+          <section class=" exemplos_bandas">
+          <div class="d-flex">
+          <img src="./assets/acrticmonkeys.jpeg" class="rounded-circle">
+          <p>Arctic Monkeys</p>
+          <img src="./assets/Mamonas-Assassinas.jpeg" class="rounded-circle">
+          <p>Mamonas Assassinas</p>
+          <img src="./assets/gunsroses.jpeg" class="rounded-circle">   
+          <p>Guns N' Roses</p>        
+          </div>
+         </section>
+        </div>
+      <div>
+        <h6 class="title_playlists">Playlist feitas para você:</h6>
+        <div class=" playlists d-flex">
+          <button>
+          <div class="card" style="width: 10rem; font-size: 10px; border: none;">
+            <img src="assets/rockplaylist.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color: #7D5A90;">
+              <p class="card-text" style="color: white;">Pink Floyd, Panic! At The Disco, Joan Jett, Journet, e muito mais! </p>
+            </div>
+          </div>
+          </button>
+          <button>
+          <div class="card" style="width: 10rem; font-size: 10px; border: none;">
+            <img src="assets/mpbplaylist.jpeg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color: #7D5A90;">
+              <p class="card-text" style="color: white;">Melim, Vitor Kley, Ana e Vitória, Lagum e Ana Gabriela, e muito mais! </p>
+            </div>
+          </div>
+          </button>
+        </div>
+        <div class=" playlists d-flex">
+          <button>
+          <div class="card" style="width: 10rem; font-size: 10px; border: none;">
+            <img src="assets/indieplaylist.webp" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color: #7D5A90;">
+              <p class="card-text" style="color: white;">Arctic Monkeys, Weezer, Cage the Elephant, The Killes, e muito mais!</p>
+            </div>
+          </div>
+         </button>
+          <button>
+          <div class="card" style="width: 10rem; font-size: 10px; border: none;">
+            <img src="assets/rapplaylist.jpeg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color: #7D5A90;">
+              <p class="card-text" style="color: white;">Zatto Beats, Kodak Black, PTK, DRAM, Jay-Z, B.I.G, e muito mais!</p>
+            </div>
+          </div>
+         </button>
+        </div>
+        <div>
+          <figure class="figure_music">
+              <img src="assets/luisasonsa_album.webp">
+              <figcaption class="ouvindo_agora">
+                  <h6>Primeiramente Me Sinto Arr..</h6>
+                  <p>Luísa Sonza</p>
+                    <img src="assets/skip-start.svg" alt="">
+                     <img src="assets/pause.svg" alt="">                   
+                    <img src="assets/skip-end.svg" alt="">   
+          </div>
+      </div>
+    </section>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
